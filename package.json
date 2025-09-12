@@ -17,7 +17,7 @@
     "example": "examples"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "prepublishOnly": "npm run build",
     "test": "echo \"No tests configured\" && exit 0"
   },
